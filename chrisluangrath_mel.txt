@@ -1,0 +1,26 @@
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 1 0 0 -cuv 4 -ch 1;
+scale -r 7.255556 1 1 ;
+scale -r 1 0.438844 1.866667 ;
+duplicate -rr;
+select -r pCube2 ;
+move -rpr -z 4 ;
+duplicate -rr;
+select -r pCube3 ;
+move -rpr -z 8 ;
+duplicate -rr;
+select -r pCube4 ;
+move -rpr -z 12 ;
+duplicate -rr;
+select -r pCube5 ;
+move -rpr -z 16 ;
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 1 0 0 -cuv 4 -ch 1;
+move -rpr -2 0 8 ;
+scale -r 1 1 21.311112 ;
+scale -r 1 0.29078 1 ;
+move -rpr -y 0.219422 ;
+duplicate -rr;
+select -r pCube6 ;
+move -rpr -x 2 ;
+
+
+
